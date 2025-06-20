@@ -33,15 +33,45 @@ This project demonstrates a hands-on lab environment for learning and exploring 
   - **Sentinel Responder** – Can view incidents and take action (e.g., assign, close, comment).
   - **Sentinel Contributor** – Can manage content such as analytics rules and workbooks.
 
+### 4. **Connect Azure Activity Logs**
+- Open the **Data Connectors** section in Sentinel.
+- Locate and install the **Azure Activity Connector**.
+- Configure the connector to pull activity logs (such as resource modifications and role assignments) from your Azure tenant.
+- Confirm successful ingestion by checking the connector status and querying incoming logs.
+
+### 5. **Threat Intelligence Integration (TAXII - Pulsedive)**
+- To enrich Sentinel with real-world threat intelligence, we connected the **Threat Intelligence - TAXII data connector**.
+- Used **Pulsedive**, a free and community-driven threat intelligence platform that supports TAXII.
+- Configured the connector by:
+  - Enabling TAXII under **Data Connectors**
+  - Providing the Pulsedive TAXII server URL and collection
+  - Setting up basic authentication (if required)
+- Once connected, Pulsedive’s indicators of compromise (IOCs) began flowing into Sentinel’s **ThreatIntelligenceIndicator** table.
+- These IOCs could then be used in:
+  - **Analytics rules**
+  - **Hunting queries**
+  - **Incident correlation**
+
 ---
+## 🔍 Features Demonstrated
+
+- Deployment of Sentinel and core infrastructure
+- Installation of Microsoft Sentinel Training Lab solution
+- Role-based access with Sentinel Contributor and Responder roles
+- Integration of Azure Activity logs via native data connector
+- **Threat Intelligence ingestion using TAXII (Pulsedive) connector**
+- Querying and investigating security events using KQL
 
 ## 🧰 Tools & Technologies Used
 
 - **Microsoft Azure**
-- **Azure Resource Manager (ARM)**
-- **Azure Log Analytics**
 - **Microsoft Sentinel**
-- **Azure Role-Based Access Control (RBAC)**
+- **Log Analytics**
+- **Azure Activity Logs**
+- **Azure RBAC**
+- **Content Hub**
+- **KQL (Kusto Query Language)**
+- **Threat Intelligence - TAXII (PulseDive)**
 
 ---
 
