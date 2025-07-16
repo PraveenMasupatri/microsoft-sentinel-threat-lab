@@ -1,9 +1,6 @@
-# microsoft-sentinel-threat-labs
-Practical lab project leveraging Microsoft Sentinel to explore threat intelligence, detection, and incident response.
-
 # Microsoft Azure Sentinel Lab
 
-This project demonstrates a hands-on lab environment for learning and exploring Microsoft Azure Sentinel—a cloud-native Security Information and Event Management (SIEM) and Security Orchestration Automated Response (SOAR) solution. The lab simulates real-world detection and response scenarios using pre-recorded data and built-in artifacts.
+This project demonstrates a hands-on lab environment for learning and exploring Microsoft Azure Sentinel—a cloud-native Security Information and Event Management (SIEM) and Security Orchestration Automated Response (SOAR) solution and also explore threat intelligence, detection, and incident response. The lab simulates real-world detection and response scenarios using pre-recorded data and built-in artifacts.
 
 ---
 
