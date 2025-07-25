@@ -72,9 +72,9 @@ This project demonstrates a hands-on lab environment for learning and exploring 
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots 
 
-_Add screenshots of key steps like Sentinel deployment, Content Hub solution installation, or incidents dashboard._
+_
 
 ---
 
